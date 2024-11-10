@@ -40,7 +40,7 @@ class Solution(object):
             # but meet another 0's again
             if k < 0:
                 # k won't change here if start pointer meet 1 but 0 will
-                # flip back to its original state
+                # then flip back to its original state
                 k += (1 - nums[s])
                 # move s
                 s += 1
